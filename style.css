@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:24px;
+    font-style: normal;
+    background-color: #f5e4db;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("./images/camera-1130731_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 60vh;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #8a583c;
+    color: #fff;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-intro {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #8a583c;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Adding shadow to the button */
+}
+
+.btn-intro:hover {
+    background-color: #ddd;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #d5a37f;
+    color: #000;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 200px;
+    margin: 20px;
+}
+
+.service-item .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #555;
+}
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e7d3c5;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.gallery-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0 0 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
